@@ -1,6 +1,7 @@
 {
   "name": "admin-tool-page",
   "version": "0.1.0",
+  "homepage": "https://thanhphong10997.github.io/admin-tool-page",
   "private": true,
   "dependencies": {
     "@date-io/dayjs": "^2.15.0",
@@ -36,9 +37,12 @@
   "devDependencies": {
     "babel-plugin-module-resolver": "^4.1.0",
     "customize-cra": "^1.0.0",
+    "gh-pages": "^5.0.0",
     "react-app-rewired": "^2.2.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
