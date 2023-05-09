@@ -1,0 +1,12 @@
+.search-input {
+	display: inline-block;
+	line-height: 15px;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	&::placeholder {
+		font-size: 1rem;
+		color: #6e7a8a;
+		opacity: 1;
+	}
+}

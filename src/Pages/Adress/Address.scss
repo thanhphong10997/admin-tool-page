@@ -1,0 +1,37 @@
+/* Pagination */
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  padding: 6px 8px;
+  /* min-width: 46px; */
+  /* font-size: 1.2rem; */
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Menu */
+.RaSidebar-fixed {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  z-index: 99;
+}
+
+/* Create-btn */
+.MuiButtonBase-root.MuiButton-root.create-btn {
+  background-color: #1976d2;
+  color: #fff;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.MuiButtonBase-root.MuiButton-root.create-btn:hover {
+  /* background-color: rgba(0, 0, 0, 0.04); */
+  opacity: 0.8;
+}
+
+

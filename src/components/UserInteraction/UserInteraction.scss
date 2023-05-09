@@ -1,0 +1,61 @@
+.color-setter-wrapper {
+	padding-right: 15px;
+
+	.MuiInputBase-input.MuiFilledInput-input {
+		letter-spacing: 1.6px;
+	}
+
+	.MuiInputBase-input.MuiFilledInput-input::placeholder {
+		font-size: 0.8rem;
+		color: red;
+	}
+}
+
+.color-setter-title,
+.background-setter-title {
+	font-size: 1rem;
+	font-weight: 600;
+	// line-height: 1.8rem;
+}
+
+.color-setter-title {
+	padding-right: 8px;
+}
+
+.background-setter-title {
+	padding-right: 4px;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-input,
+.MuiInputLabel-root {
+	font-size: 1rem;
+}
+
+.MuiButton-root.background-setter-btn {
+	font-size: 0.8rem;
+	color: var(--tool-admin-des);
+	border-color: var(--tool-admin-border);
+	margin: 0 4px;
+}
+.save-btn {
+	margin-left: 10px;
+	color: var(--white);
+
+	&:disabled {
+		color: var(--white);
+	}
+}
+
+.upload-file-name {
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+}
+
+.save-btn {
+	height: 36px;
+	margin-left: 0;
+	font-size: 0.8rem;
+	line-height: 2.4rem;
+	font-weight: 500;
+}

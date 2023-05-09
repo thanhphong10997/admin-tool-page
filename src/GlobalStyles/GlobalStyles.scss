@@ -1,0 +1,54 @@
+// @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+	--toolbar-height: 45px;
+	--tool-admin-main-text: #222;
+	--tool-admin-des: #485056;
+	--tool-admin-brand: #1976d2;
+	// --tool-admin-brand: #293687;
+	--tool-admin-border: #e5e5e5;
+	--etc-main-text: #282a3f;
+	--background: #fafafa;
+	--table-background-wrapper: #f9fbff;
+	--line: #ebebeb;
+	--ND-brand1: #dbae27;
+	--ERP-secondary: #dcaf27;
+	--border-color-wrapper: #d9d9d9;
+	--white: #fff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+// html {
+// 	font-size: 62.5%;
+// }
+
+// body {
+// 	font-size: 1.6rem;
+// 	font-family: "Mulish", sans-serif;
+// 	background-color: var(--background);
+// }
+
+#main-content {
+	background-color: #fff;
+}
+
+input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	line-height: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+	color: var(--etc-main-text);
+}
+
+.active {
+	color: var(--ND-brand1);
+}
